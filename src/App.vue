@@ -11,7 +11,7 @@ const date = ref({ month: "March", day: 9, year: 2024 });
   <p>It is {{ date.month }} {{ date.day }}, {{ date.year }}</p>
 </template>
 
-<style lang="scss">
+<style>
 body {
   background-color: #233040;
   color: #ffffff;

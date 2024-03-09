@@ -4,7 +4,7 @@
   <h1>Salut.</h1>
 </template>
 
-<style lang="scss">
+<style>
 h1 {
   color: rgb(0, 255, 162);
 }
