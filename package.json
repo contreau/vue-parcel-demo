@@ -14,8 +14,8 @@
   },
   "scripts": {
     "dev": "parcel",
-    "build": "parcel build",
-    "predeploy": "parcel build src/index.html",
+    "build": "parcel build --public-url /vue-parcel-demo/",
+    "predeploy": "parcel build --public-url /vue-parcel-demo/",
     "deploy": "gh-pages -d dist"
   },
   "alias": {
